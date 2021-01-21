@@ -15,7 +15,7 @@ class App extends Component {
         <h1 className='App-header'>Welcome to my react tutorial</h1>
         <h3>{this.state.intro}{this.state.name}</h3>
         <p>{this.state.hobby}</p>
-        <button onClick={() => (this.setState({intro: 'My nick name is ', name: 'John Diddles', hobby: 'I love programming'}))}>Change Text</button>
+        <button onClick={() => this.setState({intro: 'My nick name is ', name: 'John Diddles', hobby: 'I love programming'})}>Change Text</button>
       </header>
     )
   }
