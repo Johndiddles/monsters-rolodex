@@ -1,6 +1,11 @@
 * {
   margin: 0px;
-  padding: 0px;
+  padding: 0px; 
+}
+
+body {
+  background: linear-gradient(45deg, red, blue);
+  height: 100vh;
 }
 
 .App {
@@ -32,6 +37,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  background: #282c34;
+  border: 1px solid #282c34;
+  border-radius: 5px;
 }
 
 @keyframes App-logo-spin {
