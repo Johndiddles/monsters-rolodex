@@ -3,9 +3,16 @@
   padding: 0px; 
 }
 
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+}
+
 body {
-  background: linear-gradient(45deg, red, blue);
+  /* background: linear-gradient(45deg, red, blue); */
   height: 100vh;
+  color: #000;
 }
 
 .App {
